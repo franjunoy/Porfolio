@@ -1,15 +1,9 @@
-import './App.css'
-import obraConstruccion from './assets/photo/ObraEnConstruccion.jpg' 
-
 function App() {
 
   return (
-    <>
-      <div>
-          <img src={obraConstruccion} className="logo" alt="Vite logo" />
-      </div>
-      <h1>Estoy construyendo mi Porfolio</h1>
-    </>
+    <h1 className="text-3xl font-bold underline">
+      Hello world!
+    </h1>
   )
 }
 
